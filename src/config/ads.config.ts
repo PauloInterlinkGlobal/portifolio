@@ -31,7 +31,7 @@ const getEnvVar = (key: string, fallback: string = ''): string => {
 
 export const ADS_CONFIG: AdSystemConfig = {
   enabled: getEnvVar('VITE_ADS_ENABLED', 'true') !== 'false',
-  adsenseClientId: getEnvVar('VITE_ADSENSE_CLIENT_ID', 'ca-pub-0000000000000000'),
+  adsenseClientId: getEnvVar('VITE_ADSENSE_CLIENT_ID', 'ca-pub-7181975776917703'),
   slots: {
     betweenSections: getEnvVar('VITE_AD_SLOT_BETWEEN_SECTIONS', ''),
     beforeFooter: getEnvVar('VITE_AD_SLOT_BEFORE_FOOTER', ''),
