@@ -33,9 +33,9 @@ export const ADS_CONFIG: AdSystemConfig = {
   enabled: getEnvVar('VITE_ADS_ENABLED', 'true') !== 'false',
   adsenseClientId: getEnvVar('VITE_ADSENSE_CLIENT_ID', 'ca-pub-7181975776917703'),
   slots: {
-    betweenSections: getEnvVar('VITE_AD_SLOT_BETWEEN_SECTIONS', ''),
-    beforeFooter: getEnvVar('VITE_AD_SLOT_BEFORE_FOOTER', ''),
-    projects: getEnvVar('VITE_AD_SLOT_PROJECTS', ''),
+    betweenSections: getEnvVar('VITE_AD_SLOT_BETWEEN_SECTIONS', '6131558375'),
+    beforeFooter: getEnvVar('VITE_AD_SLOT_BEFORE_FOOTER', '6131558375'),
+    projects: getEnvVar('VITE_AD_SLOT_PROJECTS', '6131558375'),
   },
   activeNetwork: (getEnvVar('VITE_AD_NETWORK', 'google_adsense') as AdSystemConfig['activeNetwork']),
   showDevPlaceholder: envMeta.DEV ?? true,
